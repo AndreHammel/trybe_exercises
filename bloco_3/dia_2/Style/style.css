@@ -3,15 +3,20 @@ h1 {
     color: orange;
     font-family: sans-serif;
 }
+
+li {
+    color: black;
+    text-decoration: underline;
+}
+
 ul {
-    background-color: peru;
     font-style: italic;
     line-height: 30px;
     text-align: center;
-    text-decoration: underline;
     font-weight: bold;
-
 }
+
+
 .change_color {
     background-color: plum;
 }
@@ -23,4 +28,14 @@ p {
 
 body {
     font-size: 16px;
+}
+
+#Amarelo {
+    background-color: yellow;
+}
+#Vermelho {
+    background-color: red;
+}
+#Marrom {
+    background-color: brown;
 }
