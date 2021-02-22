@@ -1,0 +1,40 @@
+div:hover {
+    border-style: solid;
+    border-color: black;
+
+}
+
+#azul {
+    color: blue;
+    text-decoration: underline;
+    font-size: large;
+    font-style: italic;
+
+}
+#verde {
+    color: green;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: medium;
+}
+#cinza {
+    color: gray;
+    text-align: right;
+    text-decoration: overline;
+    font-size: x-large;
+    font-style: italic;
+
+}
+#preto {
+    color: black;
+    text-align: center;
+    text-decoration: line-through;
+    font-size: medium;
+}
+#rosa {
+    color: plum;
+    text-decoration: underline;
+    font-size: large;    
+    font-style: italic;
+
+}
