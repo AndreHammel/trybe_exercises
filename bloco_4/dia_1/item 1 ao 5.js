@@ -60,3 +60,10 @@ if (angulo1 + angulo2 + angulo3 == 180) {
     condicao_angulo = false;
 }
 console.log(condicao_angulo);
+console.log("\n");
+//
+let capturado;
+function capturar() {
+    capturando = document.getElementById('valor').value;
+    document.getElementById('valorDigirado').innerHTML = capturando;
+}
