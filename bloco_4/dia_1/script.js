@@ -48,3 +48,15 @@ if (variavel_1 > 0) {
 }else {
     console.log("O numero 3 é ZERO")
 }
+
+//item 5
+let angulo1 = 45;
+let angulo2 = 45;
+let angulo3 = 90;
+let condicao_angulo;
+if (angulo1 + angulo2 + angulo3 == 180) {
+    condicao_angulo = true;
+}else{
+    condicao_angulo = false;
+}
+console.log(condicao_angulo);
