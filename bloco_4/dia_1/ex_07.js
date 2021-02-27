@@ -1,4 +1,4 @@
-console.clear();
+//Exercício 07 - Bloco 4 : Dia 1
 
 let nota = -1;
 let conceito = "nota";

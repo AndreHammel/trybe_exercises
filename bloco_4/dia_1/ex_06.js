@@ -1,3 +1,5 @@
+//Exercício 06 - Bloco 4 : Dia 1
+
 let namePiece = "Bishop";
 // let transfToLower = namePiece.toLowerCase();
 switch (namePiece.toLowerCase()) {

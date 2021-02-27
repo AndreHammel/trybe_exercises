@@ -1,3 +1,5 @@
+//Exercício 10 - Bloco 4 : Dia 1
+
 let valorCusto = 100;
 let valorVenda = 140;
 let impostoSobreCusto = 20;
