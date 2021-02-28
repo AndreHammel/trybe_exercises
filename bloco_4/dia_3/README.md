@@ -1,13 +1,13 @@
 # Exercício Bloco 4 : Dia 2 - Lógica de Programação e Algoritmo
 
 - [x] 1. Para o primeiro exercício de hoje, faça um programa que, dado um valor n qualquer, seja n > 1 , imprima na tela um quadrado feito de asteriscos de lado de tamanho n . 
-n = 5
+#### n = 5
 
-*****
-*****
-*****
-*****
-*****
+#### *****
+#### *****
+#### *****
+#### *****
+#### *****
 - [x] 2. Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. 
 n = 5
 
