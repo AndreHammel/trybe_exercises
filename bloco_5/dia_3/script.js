@@ -101,7 +101,7 @@ btnFriday.addEventListener('click', function () {
 function dayMouseOver() {
   let days = document.querySelector('#days');
 
-  days.addEventListener('mouseover', function(event) {
+  days.addEventListener('mouseover', function (event) {
     event.target.style.fontSize = '30px';
     event.target.style.fontWeight = '600';
   })
@@ -109,8 +109,8 @@ function dayMouseOver() {
 
 function dayMouseOut() {
   let days = document.querySelector('#days');
-  
-  days.addEventListener('mouseout', function(event){
+
+  days.addEventListener('mouseout', function (event) {
     event.target.style.fontWeight = '200';
     event.target.style.fontSize = '20px';
   })
@@ -131,8 +131,55 @@ addTask('cozinhar');
 
 // Exercicio 8
 
-function legend(color) {
-  let legendSetUp = document.createElement('div');
-  legendSetUp.setAttribute('class', 'task');
-  
+function newTaskDiv(color) {
+  let tasksContainer = document.querySelector('.my-tasks');
+  let newTask = document.createElement('div');
+
+  newTask.className = 'task';
+  newTask.style.backgroundColor = color;
+  tasksContainer.appendChild(newTask);
+}
+
+newTaskDiv('green');
+
+// Exercicio 9
+
+function setTaskClass() {
+  let selectedTask = document.getElementsByClassName('task selected')
+  let myTasks = document.querySelector('.task');
+
+  myTasks.addEventListener('click', function (event) {
+    if (selectedTask.length === 0) {
+      event.target.className = 'task selected';
+    } else {
+      event.target.className = 'task';
+    }
+  });
+};
+setTaskClass();
+
+// Exercicio 10
+
+function setDayColor() {
+  let selectedTask = document.getElementsByClassName('task selected');
+  let days = document.querySelector('#days');
+  let taskDiv = document.querySelector('.task')
+  let taskColor = taskDiv.style.backgroundColor;
+  // console.log(taskColor);
+  days.addEventListener('click', function(event) {
+    let eventTargetColor = event.target.style.color;
+    console.log(eventTargetColor);
+    if (selectedTask.length > 0 && eventTargetColor !== taskColor) {
+      let color = selectedTask[0].style.backgroundColor;
+      event.target.style.color = color;
+    } else if (eventTargetColor === taskColor && selectedTask.length !== 0) {
+      event.target.style.color = 'rgb(119, 119, 119)'
+    }
+  });
+};
+
+setDayColor();
+
+function addNewTask() {
+  let getInputField = 
 }
