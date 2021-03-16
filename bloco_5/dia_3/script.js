@@ -180,6 +180,6 @@ function setDayColor() {
 
 setDayColor();
 
-function addNewTask() {
-  let getInputField = 
-}
+// function addNewTask() {
+//   let getInputField = 
+// }
